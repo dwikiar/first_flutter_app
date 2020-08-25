@@ -16,11 +16,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Icon(
-          Icons.shopping_cart,
+        child: FlatButton(
+          onPressed: () {
+            print("Button clicked");
+          },
+          child: Text("Click Me!"),
           color: Colors.lightBlue,
-          size: 50.0,
-        )
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
