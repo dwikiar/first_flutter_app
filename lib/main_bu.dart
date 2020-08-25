@@ -16,9 +16,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage("assets/space-3.jpg"),
-        )
+        child: Text(
+          "Hello World!!!",
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.grey[600],
+            fontFamily: 'IndieFlower',
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
